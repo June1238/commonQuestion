@@ -1,0 +1,5 @@
+* 服务器上配置的code-server无法通过浏览器访问
+  修改~/.config/coder-server/config.yaml配置文件
+  1-method 1：直接将bind-addr:ip:port[这里的ip是指真实ip地址 具体可通过ifconfig来查看]
+  2-method 2:直接将bind-addr:0.0.0.0:port 
+两种方法任选一种  修改完毕后即可通过外网正常访问服务器
